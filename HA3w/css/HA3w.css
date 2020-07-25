@@ -1,0 +1,27 @@
+﻿body
+{
+}
+header {
+    background-color: grey;
+    border-bottom: 2px black solid;
+}
+h2{
+    margin:15px 0px 50px;
+}
+.col-xs-12 h3 {
+    text-align:center;
+}
+.col-xs-12 {
+    /*border: 2px black solid;*/
+    margin-bottom:10px;
+    padding: 0 10px 0;
+}
+.chicken {
+    background-color: yellow;
+}
+.beef {
+    background-color: brown;
+}
+.sushi {
+    background-color: lightgreen;
+}
