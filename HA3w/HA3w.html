@@ -5,23 +5,34 @@
     <meta charset="utf-8" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/HA3w.css" rel="stylesheet" />
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+
     <title>HA3w</title>
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <h1>
-                Food, LLC
-            </h1>
-            <button type="button"class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <h1>
+                        Food, LLC
+                    </h1>
+                    <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
             </button>
             <a href="tikeve.github.io">
                 <span class="glyphicon glyphicon-menu-hamburger"></span>
-            </a>
-        </div>
+            </a>-->
 
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
     </header>
     <div class="container">
         <div class="row">
@@ -73,5 +84,9 @@
             </div>
         </div>
     </div>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
